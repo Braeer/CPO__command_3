@@ -36,10 +36,12 @@ header h1{
 	color:rgb(208, 24, 100);
 	margin-bottom: 0.6rem;
     margin-top: 3rem;
+	text-transform: uppercase;
 }
 
 header h1 span{
     color: aqua;
+		text-transform: none;
 }
 
 #new-task-form {
@@ -177,5 +179,11 @@ main {
 	justify-content: center;
 	text-align: center;
 	padding-top: 20px;
-	color: red;
+	color: rgb(50, 50, 50);
+}
+div h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 900;
+	margin-top: 5px;
+	text-shadow: rgb(77, 80, 93) 0 0 2px;
 }
